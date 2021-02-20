@@ -1,0 +1,91 @@
+
+.header {
+  background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80');
+  background-size: cover;
+  background-position: 0px -180px;
+  height: 500px;
+  margin-top: -140px;
+}
+
+
+.jumbotron{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+}
+
+.text-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+.text-top > h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+.text-top span{
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.text-top > p{
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+}
+.search {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 38rem;
+}
+
+.input-search{
+  font-size: 15px;
+  margin-right: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.btn-search{
+  font-size: 20px;
+  display: block;
+  width: 50px;
+  height: 38px;
+}
+
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .header > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+}
